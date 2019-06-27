@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 80px;
+    color: rgb(221, 49, 236)
+}
+h2{
+    font-size: 20px;
+    color: beige;
+    margin-bottom: 33px;
+  
+}
+h3{
+    font-size: 20px;
+    color: beige;
+    text-align: center;
+}h6{
+    color: beige;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.banner{
+    background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+height: 600px;
+}
+.songs{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    background-color: rgba(49, 46, 49, 0.3);
+    justify-content: space-between;
+
+}
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 40px;
+    background-size: 132px 40px;
+    position: absolute;
+    color: rgba(49, 46, 49, 0.3);
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+}
+.lista li{
+    padding-left: 30px;
+}
+button{
+    background-color: rgb(255, 53, 221);
+    color: #fff;
+    border: solid transparent 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+button:hover{
+    background-color: rgb(218, 139, 211);
+    
+}.button2{
+    background-color: rgb(255, 53, 221);
+    color: #fff;
+    border: solid transparent 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}.pag2{
+    text-align: center;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    height: 600px;  
+}
